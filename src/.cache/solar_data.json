@@ -1,0 +1,901 @@
+{
+  "scraped_at_utc": "2026-04-14T01:51:36.634822+00:00",
+  "term_labels": [
+    "1 - 20232024",
+    "2 - 20232024",
+    "3 - 20232024",
+    "1 - 20242025",
+    "2 - 20242025",
+    "3 - 20242025",
+    "1 - 20252026",
+    "2 - 20252026"
+  ],
+  "course_grades": [
+    {
+      "term_label": "1 - 20232024",
+      "course_code": "CCS0001",
+      "course_title": "INTRODUCTION TO COMPUTING (LEC)",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20232024",
+      "course_code": "CCS0001L",
+      "course_title": "INTRODUCTION TO COMPUTING (LAB)",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20232024",
+      "course_code": "CCS0003",
+      "course_title": "COMPUTER PROGRAMMING 1 (LEC)",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20232024",
+      "course_code": "CCS0003L",
+      "course_title": "COMPUTER PROGRAMMING 1 (LAB)",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20232024",
+      "course_code": "GED0004",
+      "course_title": "PHYSICAL EDUCATION 1",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "1 - 20232024",
+      "course_code": "GED0006",
+      "course_title": "PERSONAL AND PROFESSIONAL EFFECTIVENESS",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20232024",
+      "course_code": "GED0009",
+      "course_title": "READINGS IN PHILIPPINE HISTORY",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "1 - 20232024",
+      "course_code": "GED0011",
+      "course_title": "SCIENCE, TECHNOLOGY AND SOCIETY",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "CCS0005",
+      "course_title": "INTRODUCTION TO HUMAN COMPUTER INTERACTION (LEC)",
+      "units": 2.0,
+      "final_grade": 3.0
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "CCS0005L",
+      "course_title": "INTRODUCTION TO HUMAN COMPUTER INTERACTION (LAB)",
+      "units": 1.0,
+      "final_grade": 3.0
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "CCS0007",
+      "course_title": "COMPUTER PROGRAMMING 2 (LEC)",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "CCS0007L",
+      "course_title": "COMPUTER PROGRAMMING 2 (LAB)",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "GED0001",
+      "course_title": "SPECIALIZED ENGLISH PROGRAM 1",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "GED0015",
+      "course_title": "PHYSICAL EDUCATION 2",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "GED0027",
+      "course_title": "MATHEMATICS IN THE MODERN WORLD",
+      "units": 3.0,
+      "final_grade": 3.0
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "GED0029",
+      "course_title": "ANALYTIC GEOMETRY WITH CALCULUS",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20232024",
+      "course_code": "NSTP1",
+      "course_title": "CIVIC WELFARE TRAINING SERVICE 1",
+      "units": 0.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "CCS0015",
+      "course_title": "DATA STRUCTURES AND ALGORITHMS (LEC)",
+      "units": 2.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "CCS0015L",
+      "course_title": "DATA STRUCTURES AND ALGORITHMS (LAB)",
+      "units": 1.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "CCS0105",
+      "course_title": "PROFESSIONAL DEVELOPMENT (COMPUTING PROFESSION)",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "GED0007",
+      "course_title": "ART APPRECIATION",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "GED0023",
+      "course_title": "PHYSICAL EDUCATION 3",
+      "units": 3.0,
+      "final_grade": 3.0
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "GED0035",
+      "course_title": "THE CONTEMPORARY WORLD",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "GED0040",
+      "course_title": "APPLIED STATISTICS FOR CS",
+      "units": 3.0,
+      "final_grade": 3.0
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "GED0055",
+      "course_title": "MATHEMATICAL ANALYSIS",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "3 - 20232024",
+      "course_code": "NSTP2",
+      "course_title": "CIVIC WELFARE TRAINING SERVICE 2",
+      "units": 0.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "CCS0021",
+      "course_title": "INFORMATION MANAGEMENT (LEC)",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "CCS0021L",
+      "course_title": "INFORMATION MANAGEMENT (LAB)",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "CS0001",
+      "course_title": "DISCRETE STRUCTURES 1",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "CS0003",
+      "course_title": "COMPUTER SYSTEMS & ARCHITECTURE",
+      "units": 2.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "CS0003L",
+      "course_title": "COMPUTER SYSTEMS & ARCHITECTURE (LAB)",
+      "units": 1.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "CS0070",
+      "course_title": "OBJECT ORIENTED PROGRAMMING",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "CS0070L",
+      "course_title": "OBJECT ORIENTED PROGRAMMING-LAB",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "GED0021",
+      "course_title": "SPECIALIZED ENGLISH PROGRAM 2",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "GED0075",
+      "course_title": "LINEAR ALGEBRA",
+      "units": 3.0,
+      "final_grade": 3.0
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "GED0081",
+      "course_title": "COLLEGE PHYSICS 1 LECTURE",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20242025",
+      "course_code": "GED0081L",
+      "course_title": "COLLEGE PHYSICS 1 LABORATORY",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "CCS0101",
+      "course_title": "DESIGN THINKING (CCS)",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "CS0005",
+      "course_title": "DATABASE SYSTEMS",
+      "units": 3.0,
+      "final_grade": 3.0
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "CS0007",
+      "course_title": "ALGORITHM",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "CS0010",
+      "course_title": "FUNDAMENTALS OF ANALYTICS",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "CS0017",
+      "course_title": "OPERATING SYSTEM",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "CS0017L",
+      "course_title": "OPERATING SYSTEM (LAB)",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "CS0021",
+      "course_title": "DISCRETE STRUCTURES 2",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "GED0083",
+      "course_title": "COLLEGE PHYSICS 2 LECTURE",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "2 - 20242025",
+      "course_code": "GED0083L",
+      "course_title": "COLLEGE PHYSICS 2 LABORATORY",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "CCS0043",
+      "course_title": "APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES (LEC)",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "CCS0043L",
+      "course_title": "APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES (LAB)",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "CCS0103",
+      "course_title": "TECHNOPRENEURSHIP (CCS)",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "CS0013",
+      "course_title": "NETWORKS AND COMMUNICATIONS 1",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "CS0023",
+      "course_title": "AUTOMATA THEORY AND FORMAL LANGUAGES",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "CS0048",
+      "course_title": "CS SPECIALIZATION 1 (STRUCTURED PROGRAMMING LANGUAGE)",
+      "units": 2.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "CS0048L",
+      "course_title": "CS SPECIALIZATION 1 (STRUCTURED PROGRAMMING LANGUAGE)-LAB",
+      "units": 1.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "CS0051",
+      "course_title": "CS ELECTIVE - PARALLEL AND DISTRIBUTED COMPUTING",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "3 - 20242025",
+      "course_code": "GED0031",
+      "course_title": "PURPOSIVE COMMUNICATION",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "1 - 20252026",
+      "course_code": "CS0011",
+      "course_title": "MOBILE PROGRAMMING",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "1 - 20252026",
+      "course_code": "CS0016",
+      "course_title": "NETWORK AND COMMUNICATIONS 2A",
+      "units": 3.0,
+      "final_grade": 3.0
+    },
+    {
+      "term_label": "1 - 20252026",
+      "course_code": "CS0019",
+      "course_title": "MODELING AND SIMULATION",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20252026",
+      "course_code": "CS0025",
+      "course_title": "SOFTWARE ENGINEERING 1",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20252026",
+      "course_code": "CS0045",
+      "course_title": "CS ELECTIVE - COMPUTER GRAPHICS AND VISUAL COMPUTING",
+      "units": 3.0,
+      "final_grade": 3.5
+    },
+    {
+      "term_label": "1 - 20252026",
+      "course_code": "CS0053",
+      "course_title": "CS SPECIALIZATION 2 - PROGRAMMING TOOLS AND TECHNIQUES",
+      "units": 3.0,
+      "final_grade": 2.5
+    },
+    {
+      "term_label": "2 - 20252026",
+      "course_code": "CS0027",
+      "course_title": "CS PROJECT MANAGEMENT",
+      "units": 3.0,
+      "final_grade": 2.5
+    },
+    {
+      "term_label": "2 - 20252026",
+      "course_code": "CS0032",
+      "course_title": "SOFTWARE ENGINEERING 2",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "2 - 20252026",
+      "course_code": "CS0035",
+      "course_title": "PROGRAMMING LANGUAGES",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "2 - 20252026",
+      "course_code": "CS0057",
+      "course_title": "CS SPECIALIZATION 3 - IMAGE PROCESSING",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "2 - 20252026",
+      "course_code": "GED0019",
+      "course_title": "UNDERSTANDING THE SELF",
+      "units": 3.0,
+      "final_grade": 4.0
+    },
+    {
+      "term_label": "2 - 20252026",
+      "course_code": "GED0059",
+      "course_title": "MATHEMATICAL METHODS",
+      "units": 3.0,
+      "final_grade": 4.0
+    }
+  ],
+  "curriculum_courses": [
+    {
+      "course_code": "CCS0003",
+      "course_title": "COMPUTER PROGRAMMING 1 (LEC)",
+      "units": 2.0
+    },
+    {
+      "course_code": "CCS0003L",
+      "course_title": "COMPUTER PROGRAMMING 1 (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "CCS0001",
+      "course_title": "INTRODUCTION TO COMPUTING (LEC)",
+      "units": 2.0
+    },
+    {
+      "course_code": "CCS0001L",
+      "course_title": "INTRODUCTION TO COMPUTING (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "GED0011",
+      "course_title": "SCIENCE, TECHNOLOGY AND SOCIETY",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0009",
+      "course_title": "READINGS IN PHILIPPINE HISTORY",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0004",
+      "course_title": "PHYSICAL EDUCATION 1",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0006",
+      "course_title": "PERSONAL AND PROFESSIONAL EFFECTIVENESS",
+      "units": 2.0
+    },
+    {
+      "course_code": "NSTP1",
+      "course_title": "CIVIC WELFARE TRAINING SERVICE 1",
+      "units": 0.0
+    },
+    {
+      "course_code": "GED0029",
+      "course_title": "ANALYTIC GEOMETRY WITH CALCULUS",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0027",
+      "course_title": "MATHEMATICS IN THE MODERN WORLD",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0015",
+      "course_title": "PHYSICAL EDUCATION 2",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0001",
+      "course_title": "SPECIALIZED ENGLISH PROGRAM 1",
+      "units": 3.0
+    },
+    {
+      "course_code": "CCS0007",
+      "course_title": "COMPUTER PROGRAMMING 2 (LEC)",
+      "units": 2.0
+    },
+    {
+      "course_code": "CCS0007L",
+      "course_title": "COMPUTER PROGRAMMING 2 (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "CCS0005",
+      "course_title": "INTRODUCTION TO HUMAN COMPUTER INTERACTION (LEC)",
+      "units": 2.0
+    },
+    {
+      "course_code": "CCS0005L",
+      "course_title": "INTRODUCTION TO HUMAN COMPUTER INTERACTION (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "GED0007",
+      "course_title": "ART APPRECIATION",
+      "units": 3.0
+    },
+    {
+      "course_code": "CCS0015",
+      "course_title": "DATA STRUCTURES AND ALGORITHMS (LEC)",
+      "units": 2.0
+    },
+    {
+      "course_code": "CCS0015L",
+      "course_title": "DATA STRUCTURES AND ALGORITHMS (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "CCS0105",
+      "course_title": "PROFESSIONAL DEVELOPMENT (COMPUTING PROFESSION)",
+      "units": 1.0
+    },
+    {
+      "course_code": "GED0023",
+      "course_title": "PHYSICAL EDUCATION 3",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0035",
+      "course_title": "THE CONTEMPORARY WORLD",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0040",
+      "course_title": "APPLIED STATISTICS FOR CS",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0055",
+      "course_title": "MATHEMATICAL ANALYSIS",
+      "units": 3.0
+    },
+    {
+      "course_code": "NSTP2",
+      "course_title": "CIVIC WELFARE TRAINING SERVICE 2",
+      "units": 0.0
+    },
+    {
+      "course_code": "GED0081",
+      "course_title": "COLLEGE PHYSICS 1 LECTURE",
+      "units": 2.0
+    },
+    {
+      "course_code": "GED0081L",
+      "course_title": "COLLEGE PHYSICS 1 LABORATORY",
+      "units": 1.0
+    },
+    {
+      "course_code": "GED0075",
+      "course_title": "LINEAR ALGEBRA",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0021",
+      "course_title": "SPECIALIZED ENGLISH PROGRAM 2",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0070",
+      "course_title": "OBJECT ORIENTED PROGRAMMING",
+      "units": 2.0
+    },
+    {
+      "course_code": "CS0070L",
+      "course_title": "OBJECT ORIENTED PROGRAMMING-LAB",
+      "units": 1.0
+    },
+    {
+      "course_code": "CS0003",
+      "course_title": "COMPUTER SYSTEMS & ARCHITECTURE",
+      "units": 2.0
+    },
+    {
+      "course_code": "CS0003L",
+      "course_title": "COMPUTER SYSTEMS & ARCHITECTURE (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "CS0001",
+      "course_title": "DISCRETE STRUCTURES 1",
+      "units": 3.0
+    },
+    {
+      "course_code": "CCS0021",
+      "course_title": "INFORMATION MANAGEMENT (LEC)",
+      "units": 2.0
+    },
+    {
+      "course_code": "CCS0021L",
+      "course_title": "INFORMATION MANAGEMENT (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "GED0083",
+      "course_title": "COLLEGE PHYSICS 2 LECTURE",
+      "units": 2.0
+    },
+    {
+      "course_code": "GED0083L",
+      "course_title": "COLLEGE PHYSICS 2 LABORATORY",
+      "units": 1.0
+    },
+    {
+      "course_code": "CS0021",
+      "course_title": "DISCRETE STRUCTURES 2",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0017",
+      "course_title": "OPERATING SYSTEM",
+      "units": 2.0
+    },
+    {
+      "course_code": "CS0017L",
+      "course_title": "OPERATING SYSTEM (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "CS0010",
+      "course_title": "FUNDAMENTALS OF ANALYTICS",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0007",
+      "course_title": "ALGORITHM",
+      "units": 3.0
+    },
+    {
+      "course_code": "CCS0101",
+      "course_title": "DESIGN THINKING (CCS)",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0005",
+      "course_title": "DATABASE SYSTEMS",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0031",
+      "course_title": "PURPOSIVE COMMUNICATION",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0051",
+      "course_title": "CS ELECTIVE - PARALLEL AND DISTRIBUTED COMPUTING",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0048",
+      "course_title": "CS SPECIALIZATION 1 (STRUCTURED PROGRAMMING LANGUAGE)",
+      "units": 2.0
+    },
+    {
+      "course_code": "CS0048L",
+      "course_title": "CS SPECIALIZATION 1 (STRUCTURED PROGRAMMING LANGUAGE)-LAB",
+      "units": 1.0
+    },
+    {
+      "course_code": "CS0023",
+      "course_title": "AUTOMATA THEORY AND FORMAL LANGUAGES",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0013",
+      "course_title": "NETWORKS AND COMMUNICATIONS 1",
+      "units": 3.0
+    },
+    {
+      "course_code": "CCS0103",
+      "course_title": "TECHNOPRENEURSHIP (CCS)",
+      "units": 3.0
+    },
+    {
+      "course_code": "CCS0043",
+      "course_title": "APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES (LEC)",
+      "units": 2.0
+    },
+    {
+      "course_code": "CCS0043L",
+      "course_title": "APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "CS0019",
+      "course_title": "MODELING AND SIMULATION",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0011",
+      "course_title": "MOBILE PROGRAMMING",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0016",
+      "course_title": "NETWORK AND COMMUNICATIONS 2A",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0025",
+      "course_title": "SOFTWARE ENGINEERING 1",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0045",
+      "course_title": "CS ELECTIVE - COMPUTER GRAPHICS AND VISUAL COMPUTING",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0053",
+      "course_title": "CS SPECIALIZATION 2 - PROGRAMMING TOOLS AND TECHNIQUES",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0059",
+      "course_title": "MATHEMATICAL METHODS",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0019",
+      "course_title": "UNDERSTANDING THE SELF",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0057",
+      "course_title": "CS SPECIALIZATION 3 - IMAGE PROCESSING",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0035",
+      "course_title": "PROGRAMMING LANGUAGES",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0032",
+      "course_title": "SOFTWARE ENGINEERING 2",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0027",
+      "course_title": "CS PROJECT MANAGEMENT",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0085",
+      "course_title": "GENDER AND SOCIETY",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0073",
+      "course_title": "GE ELECTIVE 2",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0061",
+      "course_title": "ETHICS",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0061",
+      "course_title": "CS SPECIALIZATION 4 - BUSINESS PROCESS FOR COMPUTING",
+      "units": 2.0
+    },
+    {
+      "course_code": "CS0061L",
+      "course_title": "CS SPECIALIZATION 4 - BUSINESS PROCESS FOR COMPUTING (LAB)",
+      "units": 1.0
+    },
+    {
+      "course_code": "CS0033",
+      "course_title": "CS PROJECT 1",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0029",
+      "course_title": "INFORMATION ASSURANCE AND SECURITY",
+      "units": 3.0
+    },
+    {
+      "course_code": "CCS0047",
+      "course_title": "NUMBER THEORY",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0039",
+      "course_title": "CS PROJECT 2",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0065",
+      "course_title": "ENVIRONMENTAL SCIENCE",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0049",
+      "course_title": "LIFE AND WORKS OF RIZAL",
+      "units": 3.0
+    },
+    {
+      "course_code": "GED0047",
+      "course_title": "FOREIGN LANGUAGE",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0065",
+      "course_title": "CS ELECTIVE - INTELLIGENT SYSTEMS",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0037",
+      "course_title": "SOCIAL ISSUES AND PROFESSIONAL PRACTICE",
+      "units": 3.0
+    },
+    {
+      "course_code": "CS0041",
+      "course_title": "INTERNSHIP 1 (520 HOURS)",
+      "units": 9.0
+    },
+    {
+      "course_code": "CS0043",
+      "course_title": "INTERNSHIP 2 (520 HOURS)",
+      "units": 9.0
+    }
+  ]
+}
