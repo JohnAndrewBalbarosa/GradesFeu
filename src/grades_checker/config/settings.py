@@ -9,6 +9,7 @@ import os
 class AppSettings:
     grades_url: str
     curriculum_url: str
+    offerings_url: str
     honor_summa_min: float
     honor_summa_max: float
     honor_magna_min: float
@@ -22,6 +23,7 @@ class AppSettings:
     failed_grade_values: tuple[float, ...]
     cache_enabled: bool
     cache_file: str
+    availability_cache_file: str
 
 
 @dataclass(frozen=True)
@@ -66,6 +68,7 @@ def load_settings(env_path: str = ".env") -> AppSettings:
     return AppSettings(
         grades_url=_env_get(file_values, "GRADES_URL", "https://solar.feutech.edu.ph/student/grades"),
         curriculum_url=_env_get(file_values, "CURRICULUM_URL", "https://solar.feutech.edu.ph/program/curriculum"),
+        offerings_url=_env_get(file_values, "OFFERINGS_URL", "https://solar.feutech.edu.ph/course/offerings"),
         honor_summa_min=float(_env_get(file_values, "HONOR_SUMMA_MIN", "3.80")),
         honor_summa_max=float(_env_get(file_values, "HONOR_SUMMA_MAX", "4.00")),
         honor_magna_min=float(_env_get(file_values, "HONOR_MAGNA_MIN", "3.60")),
@@ -79,6 +82,7 @@ def load_settings(env_path: str = ".env") -> AppSettings:
         failed_grade_values=_parse_float_tuple(_env_get(file_values, "FAILED_GRADE_VALUES", "0.0,0.5")),
         cache_enabled=_env_get(file_values, "CACHE_ENABLED", "true").lower() == "true",
         cache_file=_env_get(file_values, "CACHE_FILE", ".cache/solar_data.json"),
+        availability_cache_file=_env_get(file_values, "AVAILABILITY_CACHE_FILE", ".cache/availability_data.json"),
     )
 
 

@@ -6,6 +6,7 @@ from grades_checker.logic.performance import get_failed_subjects
 from grades_checker.models.entities import HonorResult
 from grades_checker.models.entities import ScrapedSnapshot
 from grades_checker.services.summary_flow import build_summary
+from grades_checker.services.summary_flow import scrape_live_snapshot_and_cache_availability
 from grades_checker.services.summary_flow import scrape_live_snapshot
 
 
@@ -80,7 +81,7 @@ def run_honors_from_snapshot(snapshot: ScrapedSnapshot, settings: AppSettings) -
 
 def run_live() -> None:
     settings = load_settings()
-    snapshot = scrape_live_snapshot()
+    snapshot = scrape_live_snapshot_and_cache_availability(settings)
     run_honors_from_snapshot(snapshot, settings)
 
 

@@ -8,13 +8,17 @@ from grades_checker.logic.performance import round_to_half_step
 from grades_checker.models.entities import CourseGrade
 
 
-def test_load_settings_from_env_file(tmp_path: Path) -> None:
+def test_load_settings_from_env_file(tmp_path: Path, monkeypatch) -> None:
+    monkeypatch.delenv("CACHE_FILE", raising=False)
+    monkeypatch.delenv("AVAILABILITY_CACHE_FILE", raising=False)
+
     env_file = tmp_path / ".env.test"
     env_file.write_text(
         "\n".join(
             [
                 "GRADES_URL=https://example.com/grades",
                 "CURRICULUM_URL=https://example.com/curriculum",
+                "OFFERINGS_URL=https://example.com/offerings",
                 "HONOR_SUMMA_MIN=3.85",
                 "HONOR_MAGNA_MIN=3.65",
                 "HONOR_CUM_MIN=3.45",
@@ -22,6 +26,7 @@ def test_load_settings_from_env_file(tmp_path: Path) -> None:
                 "OUTLIER_TAIL=left",
                 "FAILED_GRADE_VALUES=0.0,0.5",
                 "CACHE_FILE=.cache/custom.json",
+                "AVAILABILITY_CACHE_FILE=.cache/availability.json",
             ]
         ),
         encoding="utf-8",
@@ -30,6 +35,7 @@ def test_load_settings_from_env_file(tmp_path: Path) -> None:
     settings = load_settings(str(env_file))
     assert settings.grades_url == "https://example.com/grades"
     assert settings.curriculum_url == "https://example.com/curriculum"
+    assert settings.offerings_url == "https://example.com/offerings"
     assert settings.honor_summa_min == 3.85
     assert settings.honor_magna_min == 3.65
     assert settings.honor_cum_min == 3.45
@@ -37,6 +43,7 @@ def test_load_settings_from_env_file(tmp_path: Path) -> None:
     assert settings.outlier_tail == "left"
     assert settings.failed_grade_values == (0.0, 0.5)
     assert settings.cache_file == ".cache/custom.json"
+    assert settings.availability_cache_file == ".cache/availability.json"
 
 
 def test_outlier_analysis_detects_low_subject_and_projects() -> None:
