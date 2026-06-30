@@ -28,3 +28,39 @@ See the docs folder:
 - [docs/schedule-checker.md](docs/schedule-checker.md)
 - [docs/professor-excel.md](docs/professor-excel.md)
 - [docs/configuration.md](docs/configuration.md)
+
+## Architecture (UML)
+
+```mermaid
+graph TD
+    CLI["CLI Entry<br/>cli.py"]
+    AnalysisFlow["Analysis Flow<br/>analysis_flow.py"]
+    ScheduleFlow["Schedule Flow<br/>schedule_flow.py"]
+    
+    PlaywrightScraper["Playwright Scraper<br/>Web Automation"]
+    DataAnalyzer["Data Analyzer<br/>grades/honors processing"]
+    ReportGen["Report Generator<br/>PNG output"]
+    
+    ConfigModule["Config<br/>settings.py"]
+    
+    CLI -->|loads config| ConfigModule
+    CLI -->|invokes| AnalysisFlow
+    CLI -->|invokes| ScheduleFlow
+    
+    AnalysisFlow -->|uses| PlaywrightScraper
+    AnalysisFlow -->|processes| DataAnalyzer
+    
+    ScheduleFlow -->|uses| PlaywrightScraper
+    ScheduleFlow -->|outputs| ReportGen
+    
+    ConfigModule -->|shared| PlaywrightScraper
+    ConfigModule -->|shared| DataAnalyzer
+```
+
+## Tech Stack
+
+- **Python 3.10+**: Core language
+- **Playwright**: Web scraping & automation
+- **Rich**: CLI output formatting
+- **Pillow**: Image processing
+- **openpyxl**: Excel parsing
