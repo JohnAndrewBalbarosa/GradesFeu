@@ -1,66 +1,74 @@
-# Grades Checker (FEU Tech SOLAR)
+# GradesFeu
 
-Tooling for FEU Tech SOLAR scraping and analysis:
+## Overview
 
-- grades/honors analysis
-- schedule availability checker
-- PNG schedule report generation
-- optional professor mapping from Excel
+FEU Tech SOLAR grades and schedule analysis tool
 
-## Quick Start
+Repository: [JohnAndrewBalbarosa/GradesFeu](https://github.com/JohnAndrewBalbarosa/GradesFeu)
+
+## Problem and Goal
+
+This project should be read as a technical build: it identifies a concrete workflow or research problem, implements a working system around that problem, and documents enough evidence for another person to understand, run, and evaluate the result.
+
+Primary goals:
+
+- Explain what the project does and who it is for.
+- Show the architecture and implementation choices.
+- Provide enough setup guidance for local review.
+- Report measured results when available.
+- Make limitations and next steps explicit instead of implying unverified impact.
+
+## System Design
+
+Current documented components:
+
+- Source implementation for the core project logic.
+- Documentation folder for architecture, requirements, or supporting notes.
+- Automated tests or validation examples.
+
+Project tags:
+
+- To be tagged based on the final project stack.
+
+## Setup and Usage
+
+Use the commands below as the starting point for local setup. Verify environment variables, secrets, datasets, and external services before running production-like workflows.
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-playwright install chromium
+pip install -e .
 ```
 
-```bash
-grades-checker --live
-schedule-checker --group-size 3 --image-output src/.cache/schedule_report.png
-```
+## Evaluation Method
 
-## Docs
+- Define the project task and expected behavior.
+- Run representative examples or user flows.
+- Record correctness, speed, reliability, usability, and failure cases.
 
-See the docs folder:
+## Results
 
-- [docs/index.md](docs/index.md)
-- [docs/getting-started.md](docs/getting-started.md)
-- [docs/schedule-checker.md](docs/schedule-checker.md)
-- [docs/professor-excel.md](docs/professor-excel.md)
-- [docs/configuration.md](docs/configuration.md)
+- No validated quantitative results are published yet.
+- Current README status: implementation and usage are documented before formal measurement.
 
-## Architecture (UML)
+## Interpretation
 
-```mermaid
-graph TD
-    CLI["CLI Entry<br/>cli.py"]
-    AnalysisFlow["Analysis Flow<br/>analysis_flow.py"]
-    ScheduleFlow["Schedule Flow<br/>schedule_flow.py"]
-    
-    PlaywrightScraper["Playwright Scraper<br/>Web Automation"]
-    DataAnalyzer["Data Analyzer<br/>grades/honors processing"]
-    ReportGen["Report Generator<br/>PNG output"]
-    
-    ConfigModule["Config<br/>settings.py"]
-    
-    CLI -->|loads config| ConfigModule
-    CLI -->|invokes| AnalysisFlow
-    CLI -->|invokes| ScheduleFlow
-    
-    AnalysisFlow -->|uses| PlaywrightScraper
-    AnalysisFlow -->|processes| DataAnalyzer
-    
-    ScheduleFlow -->|uses| PlaywrightScraper
-    ScheduleFlow -->|outputs| ReportGen
-    
-    ConfigModule -->|shared| PlaywrightScraper
-    ConfigModule -->|shared| DataAnalyzer
-```
+- The project can be described as implemented or in progress, but impact claims should stay limited until measurements are collected.
+- Use the evaluation plan below to turn the project into resume-ready, evidence-backed work.
 
-## Tech Stack
+## Limitations
 
-- **Python 3.10+**: Core language
-- **Playwright**: Web scraping & automation
-- **Rich**: CLI output formatting
-- **Pillow**: Image processing
-- **openpyxl**: Excel parsing
+- Results should only be treated as validated when this README includes the dataset, sample size, metric definition, and reproduction steps.
+- Any AI-generated, OCR-based, scraped, or heuristic output requires manual review before being used as ground truth.
+- Environment-dependent measurements such as latency, memory use, browser behavior, and API reliability should be re-measured on the target machine.
+
+## Recommendations and Future Work
+
+- Number of grade records parsed correctly.
+- Forecast accuracy or error rate if prediction is enabled.
+- Time saved compared with manual spreadsheet work.
+
+## Documentation Standard
+
+This README follows a technical-project structure: overview, goal, system design, setup, evaluation method, results, interpretation, limitations, and recommendations. Update the Results section whenever new measurements are available so project claims stay evidence-backed.
